@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/fontawesome5.8.2/css/all.css">
+    <link rel="stylesheet" href="css.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/materialize.js"></script>
+    <link rel="icon" href="chibi_rhen_d3i_icon.ico" sizes="32x32">
+    <title>Jonks</title>
+</head>
+
+<body>
+    <!-- <nav>
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><b>🤡 Joke Generator</b></a>
+        </div>
+    </nav> -->
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l8">
+                <div class="card center">
+                    <div id="card-content p1">
+                        <h3>🤡 Jonks Generator</h3>
+                        <form action="">
+                            <div class="row">
+                                <div class="col m9 input-field">
+                                    <input type="text" id="firstName" placeholder="First Name" required>
+                                    <input type="text" id="lastName" placeholder="Last Name" required>
+                                    <input type="number" id="number" placeholder="Number of Jokes" required>
+                                </div>
+                                <div class="col m3">
+                                    <button class="get-jokes btn hoverable">Get Jokes</button><br>
+                                </div>
+                            </div>
+                            <hr>
+                            <h5 id="no-jokes"></h5>
+                            <div class="card-content jokes center" id="no-jokes">No Jokes Yet ☹<a href="#"
+                                    class="favorite"></a></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s12 m12 l4">
+                <div class="card center" id="fav_title">
+                    <div id="card-content p1">
+                        <h3>Favorites</h3>
+                        <span class="badge" id='badge'></span>
+                        <form action="">
+                            <div class="favorites" id="no-jokes"> </div>
+                            <br>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="chucknorris.js"></script>
+</body>
+
+</html>
